@@ -1,0 +1,10 @@
+
+@font-face {
+    font-family: 'Karla';
+    src: url(/assets/fonts/Karla-Light.ttf),
+    url(/assets/fonts/Karla-Regular.ttf), url(/assets/fonts/Karla-Bold.ttf);
+}
+@font-face {
+    font-family: 'DMSerifDisplay';
+    src: url(/assets/fonts/DMSerifDisplay-Regular.ttf);
+}
