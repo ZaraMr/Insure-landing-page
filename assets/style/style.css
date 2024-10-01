@@ -8,3 +8,55 @@
     font-family: 'DMSerifDisplay';
     src: url(/assets/fonts/DMSerifDisplay-Regular.ttf);
 }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Karal', sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    /* height: auto; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 15rem;
+}
+
+.navbar {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.navbar > a {
+    color: hsl(216, 35%, 60%);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.navbar > a:hover {
+    color: hsl(270, 9%, 17%);
+}
+
+.navbar > .btn {
+    color: hsl(270, 9%, 17%);
+    border: 1px solid hsl(270, 9%, 17%);
+    padding: 1rem 2rem;
+}
+
+.navbar > .btn:hover {
+    background-color: hsl(270, 9%, 17%);
+    color: hsl(0, 0%, 98%);
+}
