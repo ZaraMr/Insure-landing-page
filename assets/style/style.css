@@ -25,7 +25,7 @@ body {
 }
 
 h1,
-h2 {
+h2, h4 {
     font-family: 'DMSerifDisplay', sans-serif;
 }
 
@@ -104,6 +104,16 @@ h2 {
     color: hsl(0, 0%, 98%);
 }
 
+.home-section > .content-container h1::after {
+    content: "";
+    position: absolute;
+    top: 6rem;
+    left: 15rem;
+    width: 8%;
+    height: 1px;
+    background-color: hsl(300, 2%, 80%);
+}
+
 .home-section > .content-container p {
     font-size: 1.4rem;
     color: hsl(0, 0%, 98%);
@@ -148,3 +158,53 @@ h2 {
     /* z-index: 0; */
 }
 
+/* section-1 starts */
+.section-1 {
+    margin-top: 25rem;
+    margin-bottom: 20rem;
+    padding: 0 15rem;
+    position: relative;
+}
+
+.section-1 h2 {
+    font-size: 4.6rem;
+    color: hsl(270, 9%, 17%);
+    font-weight: 500;
+    letter-spacing: -0.8px;
+}
+
+.section-1 h2::after {
+    content: "";
+    position: absolute;
+    top: -3rem;
+    left: 15rem;
+    width: 8%; 
+    height: 1px;
+    background-color: hsl(300, 2%, 80%);
+}
+
+.row-items {
+    display: flex;
+    margin-top: 5rem;
+    gap: 10rem;
+    align-items: center;
+}
+
+.row-items > .item > img {
+    width: 6rem;
+}
+
+.row-items > .item > h4 {
+    font-size: 2.2rem;
+    font-weight: 300;
+    margin: 1.8rem 0 1rem;
+    color: hsl(270, 9%, 17%);
+}
+
+.row-items > .item > p {
+    font-size: 12px;
+    line-height: 2rem;
+    letter-spacing: 0.5px;
+    color: hsl(300, 1%, 68%);
+}
+/* section-1 ends */
