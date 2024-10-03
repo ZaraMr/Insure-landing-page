@@ -24,9 +24,16 @@ body {
     font-family: 'Karal', sans-serif;
 }
 
+h1,
+h2 {
+    font-family: 'DMSerifDisplay', sans-serif;
+}
+
+/* header section starts */
 .header {
     width: 100%;
     display: flex;
+    position: relative;
     /* height: auto; */
     justify-content: space-between;
     align-items: center;
@@ -60,3 +67,84 @@ body {
     background-color: hsl(270, 9%, 17%);
     color: hsl(0, 0%, 98%);
 }
+/* header section ends */
+
+
+/* home section starts */
+.home-section {
+    display: flex;
+    /* justify-content: space-around; */
+    position: relative;
+    /* gap: 5rem; */
+    width: 100%;
+    background-color: hsl(256, 26%, 20%);
+    margin-bottom: 10rem;
+    /* z-index: 2; */
+}
+
+.bg-intro-left {
+    position: absolute;
+    top: 30rem;
+    left: 0;
+    width: 12%;
+}
+
+.home-section > .content-container {
+    width: 37%;
+    margin: 8rem 0 8rem 15rem ;
+
+    /* background-color: red; */
+}
+
+.home-section > .content-container h1 {
+    /* font-family: 'DMSerifDisplay', sans-serif; */
+    font-size: 5.2rem;
+    font-weight: 400;
+    letter-spacing: -0.7px;
+    color: hsl(0, 0%, 98%);
+}
+
+.home-section > .content-container p {
+    font-size: 1.4rem;
+    color: hsl(0, 0%, 98%);
+    font-weight: 300;
+    line-height: 2.2rem;
+    margin: 1.5rem 0 3rem;
+    /* font-family: 'DMSerifDisplay'; */
+}
+
+.home-section > .content-container .btn {
+    color: hsl(0, 0%, 98%);
+    border: 1px solid hsl(0, 0%, 98%);
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.home-section > .content-container .btn:hover {
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(270, 9%, 17%);
+}
+
+.home-section > .img-container {
+    width: 27%;
+    position: absolute;
+    top: 6rem;
+    right: 15rem;
+
+}
+
+.home-section > .img-container img {
+    width: 100%;
+
+}
+
+.bg-intro-right {
+    position: absolute;
+    top: 0rem;
+    right: 0;
+    width: 22%;
+    /* z-index: 0; */
+}
+
