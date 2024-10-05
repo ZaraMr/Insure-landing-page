@@ -123,7 +123,8 @@ h2, h4 {
     /* font-family: 'DMSerifDisplay'; */
 }
 
-.home-section > .content-container .btn {
+.home-section > .content-container .btn,
+.section-2 .section-2-content .btn {
     color: hsl(0, 0%, 98%);
     border: 1px solid hsl(0, 0%, 98%);
     padding: 1rem 2rem;
@@ -132,9 +133,11 @@ h2, h4 {
     letter-spacing: 1px;
 }
 
-.home-section > .content-container .btn:hover {
+.home-section > .content-container .btn:hover,
+.section-2 .section-2-content .btn:hover {
     background-color: hsl(0, 0%, 98%);
     color: hsl(270, 9%, 17%);
+    position: relative;
 }
 
 .home-section > .img-container {
@@ -208,3 +211,39 @@ h2, h4 {
     color: hsl(300, 1%, 68%);
 }
 /* section-1 ends */
+
+/* section-2 starts */
+.section-2 {
+    position: relative;
+    margin: 0 15rem;
+    margin-bottom: 10rem;
+    background-color: hsl(256, 26%, 20%);
+    padding: 4rem 10rem;
+    overflow: hidden;
+}
+
+
+
+.section-2 .section-2-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-2 h2 {
+    font-size: 3.8rem;
+    color: hsl(0, 0%, 98%);
+    font-weight: 500;
+}
+
+.section-2-intro-bg {
+    position: absolute;
+    top: -18rem;
+    right: 0;
+}
+
+.section-2 .btn {
+    position: relative;
+    z-index: 2;
+}
+/* section-2 ends */
