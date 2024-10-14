@@ -6,13 +6,14 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/style/style.css">
+  <link rel="stylesheet" href="assets/style/responsive.css">
   
   <title>Frontend Mentor | Insure landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
     .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    /* .attribution a { color: hsl(228, 45%, 44%); } */
   </style>
 </head>
 <body>
@@ -22,23 +23,35 @@
   <header class="header">
     <div class="logo-container">
       <a href="#"><img src="assets/images/logo.svg" alt="logo"></a>
+      <svg xmlns="http://www.w3.org/2000/svg" id="mobile-nav-toggle" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="header-menu">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+      </svg>
     </div>
 
-    <nav class="navbar">
-      <a href="#">How we work</a>
-      <a href="#">Blog</a>
-      <a href="#">Account</a>
-      <a href="#" class="btn">View plans</a>
+    <nav class="navbar" id="mobile-nav">
+      <a href="#" class="nav-item">How we work</a>
+      <a href="#" class="nav-item">Blog</a>
+      <a href="#" class="nav-item">Account</a>
+      <a href="#" class="nav-item" class="btn">View plans</a>
+      <img src="assets/images/bg-pattern-mobile-nav.svg" alt="bg-pattern-mobile-nav" class="bg-mobile-nav">
     </nav>
+
+
+    
 
   </header>
 
   <!-- header section ends -->
 
+  <main>
   <!-- home section starts  -->
+  <div class="img-container-mobile">
+    <img src="assets/images/image-intro-mobile.jpg" alt="">
+  </div>
    <div class="home-section">
     <img src="assets/images/bg-pattern-intro-left-desktop.svg" alt="" class="bg-intro-left">
     <div class="content-container">
+      <img src="assets/images/bg-pattern-intro-left-mobile.svg" alt="bg-pattern" class="intro-left-mobile">
       <h1>Humanizing <br> your insurance.</h1>
       <p>Get your life insurance coverage easier and faster. We blend our expertise 
         and technology to help you find the plan that’s right for you. Ensure you 
@@ -48,6 +61,7 @@
     <div class="img-container">
       <img src="assets/images/image-intro-desktop.jpg" alt="">
     </div>
+    <img src="assets/images/bg-pattern-intro-right-mobile.svg" alt="bg-pattern" class="intro-right-mobile">
     <img src="assets/images/bg-pattern-intro-right-desktop.svg" alt="" class="bg-intro-right">
    </div>
 
@@ -91,13 +105,16 @@
       <a href="#" class="btn">How we work</a>
       </div>
       
+      <img src="assets/images/bg-pattern-how-we-work-mobile.svg" alt="bg-pattern" class="bg-section-2-mobile">
       <img src="assets/images/bg-pattern-intro-right-desktop.svg" alt="intro-bg" class = "section-2-intro-bg">
      </section>
      <!-- section-2 ends -->
+      </main>
 
      <!-- footer starts -->
       <footer class="footer">
-        <img src="assets/images/bg-pattern-footer-desktop.svg" alt="bg-pattern-intro-left" class="footer-bg-left">
+        <img src="assets/images/bg-pattern-footer-mobile.svg" alt="bg-pattern" class="bg-footer-mobile">
+        <img src="assets/images/bg-pattern-footer-desktop.svg" alt="bg-pattern" class="footer-bg-left">
         <div class="footer-logos">
           <a href="#"><img src="assets/images/logo.svg" alt="logo" class="logo"></a>
           <div class="social-media-logos-container">

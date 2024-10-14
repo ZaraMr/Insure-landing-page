@@ -40,6 +40,10 @@ h2, h4 {
     padding: 2rem 15rem;
 }
 
+.header .header-menu {
+    display: none;
+}
+
 .navbar {
     display: flex;
     gap: 2rem;
@@ -67,10 +71,18 @@ h2, h4 {
     background-color: hsl(270, 9%, 17%);
     color: hsl(0, 0%, 98%);
 }
+
+.bg-mobile-nav {
+    display: none;
+}
 /* header section ends */
 
 
 /* home section starts */
+.img-container-mobile {
+    display: none;
+}
+
 .home-section {
     display: flex;
     /* justify-content: space-around; */
@@ -94,6 +106,10 @@ h2, h4 {
     margin: 8rem 0 8rem 15rem ;
 
     /* background-color: red; */
+}
+
+.intro-left-mobile {
+    display: none;
 }
 
 .home-section > .content-container h1 {
@@ -138,6 +154,10 @@ h2, h4 {
     background-color: hsl(0, 0%, 98%);
     color: hsl(270, 9%, 17%);
     position: relative;
+}
+
+.home-section > .intro-right-mobile {
+    display: none;
 }
 
 .home-section > .img-container {
@@ -246,6 +266,10 @@ h2, h4 {
     position: relative;
     z-index: 2;
 }
+
+.section-2 .bg-section-2-mobile {
+    display: none;
+}
 /* section-2 ends */
 
 /* footer starts*/
@@ -255,6 +279,10 @@ h2, h4 {
     position: relative;
     z-index: 3;
     background-color: #f8f4f0;
+}
+
+.footer .bg-footer-mobile {
+    display: none;
 }
 
 .footer .footer-bg-left {
@@ -289,7 +317,7 @@ h2, h4 {
     gap: 20rem;
     margin: 0 15rem 5rem;
     padding-top: 5rem;
-    border-top: 1px solid hsl(300, 1%, 60%);
+    border-top: 1px solid hsl(300, 2%, 80%);
     z-index: 2;
 }
 
