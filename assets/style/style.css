@@ -23,7 +23,9 @@ html {
 body {
     font-family: 'Karal', sans-serif;
 }
-
+body, html {
+    overflow-x: hidden;
+  }   
 h1,
 h2, h4 {
     font-family: 'DMSerifDisplay', sans-serif;
